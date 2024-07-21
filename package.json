@@ -9,9 +9,7 @@
     "url": "git+https://github.com/yao-pkg/pkg.git"
   },
   "types": "lib-es5/index.d.ts",
-  "bin": {
-    "pkg": "lib-es5/bin.js"
-  },
+  "bin": "lib-es5/bin.js",
   "files": [
     "lib-es5/*.js",
     "lib-es5/index.d.ts",
@@ -138,5 +136,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "packageManager": "yarn@1.22.17",
+  "resolutions": {
+    "braces": "3.0.3"
   }
 }
